@@ -1,0 +1,116 @@
+@font-face {
+    font-family: book;
+    src: url(fonts/BKANT.TTF);
+}
+
+@font-face {
+    font-family: days;
+    src: url(fonts/28\ Days\ Later.ttf);
+}
+
+h1{
+
+    text-align: center;
+    font-family: book;
+    background-color: rgb(234, 255, 253);
+    margin-top: 0%;
+    padding-bottom: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+}   
+		
+#navlist {
+    position: sticky;
+    top: 0;
+		width: 100%;
+	}
+		
+
+#navlist a {
+		float:left;
+		display: block;
+		color: #000000;
+		text-align: center;
+		padding: 12px;
+		text-decoration: none;
+		font-size: 17px;
+	}
+	
+.navlist-right{
+		float:right;
+	}
+
+
+#navlist a:hover {
+		background-color: rgb(159, 252, 255);
+		color: black;
+	}
+
+.search input[type=text]{
+		width:300px;
+		height:25px;
+		border-radius:25px;
+		border: none;
+	}
+		
+.search{
+		float:right;
+		margin:7px;
+	}
+		
+.search button{
+		float: right;
+		padding: 5px 10px;
+		margin-right: 16px;
+		font-size: 12px;
+		border: none;
+		cursor: pointer;
+	}
+
+.shop a {
+        font-family: days;
+		float:left;
+		display: block;
+		color: #000000;
+		text-align: center;
+		padding: 12px;
+		text-decoration: none;
+		font-size: 60px;
+	}
+	
+
+.shop a:hover {
+		background-color: rgb(170, 241, 243);
+		color: black;
+	}
+
+ .flexc {
+        display: flex;
+      }
+      
+.flexc > div {
+        margin: 10px;
+        padding: 20px;
+        font-size: 30px;
+      }
+
+.class a:hover {
+		background-color: rgb(159, 252, 255);
+		color: black;
+	}
+
+h6{
+    text-align: center;
+}
+
+.flexc2 {
+    display: flex;
+
+  }
+  
+  .flexc2 > div {
+   
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
